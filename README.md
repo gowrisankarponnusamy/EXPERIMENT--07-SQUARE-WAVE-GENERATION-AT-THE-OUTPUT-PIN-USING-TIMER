@@ -362,34 +362,34 @@ void assert_failed(uint8_t *file, uint32_t line)
 ![Screenshot ](https://github.com/user-attachments/assets/563b5f33-c13d-46bf-af74-57c9e4e704c4)
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
-FOR PULSE AT 500
+### FOR PULSE AT 500
 
 TON = 3 * 10Ms = 30Ms
-TOFF= 3 * 10Ms = 30Ms
-TOTAL TIME = TON/(TON+TOFF) = 30Ms/60Ms = 1/2 = 0.5Ms
-           = 0.5 * 100 = 50%
-FREQUENCY = 1/(TOTAL TIME)
-          = 1/(TON+TOFF) = 1/60 = 0.016
+<p>TOFF= 3 * 10Ms = 30Ms</p>
+<p>TOTAL TIME = TON/(TON+TOFF) = 30Ms/60Ms = 1/2 = 0.5Ms</p>
+           <p>= 0.5 * 100 = 50%</p>
+<p>FREQUENCY = 1/(TOTAL TIME)</p>
+          <p>= 1/(TON+TOFF) = 1/60 = 0.016</p>
           
           
-FOR PULSE AT 750
+### FOR PULSE AT 750
 
 TON = 1.5 * 10Ms = 15Ms
-TOFF= 1.5 * 10Ms = 15Ms
-TOTAL TIME = TON/(TON+TOFF) = 15Ms/30Ms = 1/2 = 0.5Ms
-           = 0.5 * 100 = 50%
-FREQUENCY = 1/(TOTAL TIME)
-          = 1/(TON+TOFF) = 1/30 = 0.033
+<p>TOFF= 1.5 * 10Ms = 15Ms</p>
+<p>TOTAL TIME = TON/(TON+TOFF) = 15Ms/30Ms = 1/2 = 0.5Ms</p>
+           <p>= 0.5 * 100 = 50%</p>
+<p>FREQUENCY = 1/(TOTAL TIME)</p>
+          <p>= 1/(TON+TOFF) = 1/30 = 0.033</p>
 
 
-FOR PULSE AT 400
+### FOR PULSE AT 400
 
 TON = 2.5 * 10Ms = 25Ms
-TOFF= 2.5 * 10Ms = 25Ms
-TOTAL TIME = TON/(TON+TOFF) = 25Ms/50Ms = 1/2 = 0.5Ms
-           = 0.5 * 100 = 50%
-FREQUENCY = 1/(TOTAL TIME)
-          = 1/(TON+TOFF) = 1/50 = 0.02
+<p>TOFF= 2.5 * 10Ms = 25Ms</p>
+<p>TOTAL TIME = TON/(TON+TOFF) = 25Ms/50Ms = 1/2 = 0.5Ms</p>
+           <p>= 0.5 * 100 = 50%</p>
+<p>FREQUENCY = 1/(TOTAL TIME)</p>
+          <p>= 1/(TON+TOFF) = 1/50 = 0.02</p>
 
 
 ## Result :
